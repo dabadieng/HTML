@@ -1,0 +1,95 @@
+* {
+    font-family: 'Dancing Script', cursive;    
+}
+
+*:focus {
+    border: 4px solid #FF5;
+}
+
+div.encadre {
+    border: 3px solid #678;
+    padding: 10px;
+    font-size:1em;
+}
+
+div.encadre>ul {
+    background-color: #AEA;
+}
+
+
+.vert {
+    color:green;
+    font-size:2em;
+    font-weight: bold;
+}
+
+li[data-truc="Item 1"] {
+    border: 2px solid #123;
+}
+
+input[type="checkbox"]:checked+label {
+    border: 2px solid #A12;
+}
+
+
+a:active {
+   font-size:4em; 
+}
+
+a:visited {
+    color:#987;
+ }
+
+input:required {
+    background-color: #F99; 
+}
+
+div.myflex2 {
+    display:flex;    
+    flex-flow: row;
+}   
+
+
+div.myflex {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content : space-between;
+}   
+
+div.myflex > li {
+    list-style-type: none;
+}
+
+div.myflex > li > a {
+    text-decoration: none;
+    padding:20px;
+    color:#000;
+    background-color:#EAB;
+}
+
+div.myflex > li > a:hover{
+    border: 2px solid #A12;
+    background-color:#6E4;  
+}
+
+img {
+    border: 2px solid #A12;
+}
+
+.screen-reader {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+@media (max-width: 800px) {
+    div.myflex2 {
+        flex-flow: column;
+    }   
+}

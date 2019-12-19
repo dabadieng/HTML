@@ -1,0 +1,49 @@
+body {
+    margin:0;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height:120px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#titre {
+    font-family: 'Crete Round';
+    font-size: 30px;
+    font-weight: bold;
+    margin:auto 100px;
+    display:flex;
+}
+
+header > nav {
+    display:flex;
+    margin:auto 20px auto 0px;
+}
+
+
+header > nav > li {
+    list-style-type: none;
+    padding:0px 10px;
+}
+
+header > nav > li > a {
+    font-weight: bold;
+    text-decoration: none;
+    color:#000;
+}
+
+header > nav > li > a:visited {
+    color:#000;
+}
+
+.orange {
+    color:orangered;
+}
+
+#grande-image {
+    height:580px;
+    background: url('24.3 main.jpg.jpg') center;
+}

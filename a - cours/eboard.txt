@@ -1,0 +1,7 @@
+window.innerWidth;
+document.body;
+document.getElementsByTagName("header");
+
+<p>
+voici du texte <a href="toto.html">dans</a> un block
+</p>

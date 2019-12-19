@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Les CSS</title>    
+</head>
+<style>
+div.items {
+    border:1px solid #567;
+    width:300px;
+    height:300px;
+}    
+div.items p {display: none}
+div.items p:target {display: block}
+</style>
+
+<body>
+    <p>
+        <a href="#item1">item 1</a>
+        <a href="#item2">item 2</a>
+        <a href="#item3">item 3</a>
+        <a href="#default">clear</a>
+
+        <div class="items">
+            <p id="item1">... item 1... ... item 1...... item 1...... item 1...... item 1...... item 1...</p>
+            <p id="item2">... item 2... ... item 2...... item 2...... item 2...... item 2...... item 2...</p>
+            <p id="item3">... item 3...... item 3 item 3item 3item 3item 3item 3</p>
+            <p id="default"> </p>
+        </div>
+    </p>
+
+</body>
+
+</html>

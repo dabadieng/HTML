@@ -1,0 +1,48 @@
+* {
+    font-family: 'Dancing Script', cursive;    
+}
+
+*:focus {
+    border: 4px solid #FF5;
+}
+
+div.encadre {
+    border: 3px solid #678;
+    padding: 10px;
+    font-size:1em;
+}
+
+div.encadre>ul {
+    background-color: #AEA;
+}
+
+
+.vert {
+    color:green;
+    font-size:2em;
+    font-weight: bold;
+}
+
+li[data-truc="Item 1"] {
+    border: 2px solid #123;
+}
+
+input[type="checkbox"]:checked+label {
+    border: 2px solid #A12;
+}
+
+div:hover {
+    background-color: #098;
+}
+
+a:active {
+   font-size:4em; 
+}
+
+a:visited {
+    color:#987;
+ }
+
+input:required {
+    background-color: #F99; 
+}
